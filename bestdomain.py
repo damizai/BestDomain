@@ -91,7 +91,7 @@ if __name__ == "__main__":
         raise Exception("CF_API_TOKEN not set")
 
     subdomain_ip_mapping = {
-        "liuer": "https://ipdb.api.030101.xyz/?type=bestcfv6;bestcfv4;bestcf",
+        "liuer": "https://ipdb.api.030101.xyz/?type=bestcfv6",
     }
 
     zone_id, domain = get_cloudflare_zone(api_token)
